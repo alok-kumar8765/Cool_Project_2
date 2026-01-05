@@ -245,6 +245,88 @@ Creative coding, image processing
 
 </details>
 
+<summary><b>11 PDF to Speech Converter</b></summary>  
+
+* Extracts text from PDF files
+* Converts text to audio using Google Text-to-Speech (`gTTS`)
+* Saves output as MP3
+
+**Use Case:**
+Create audiobooks, assist visually impaired users, or listen to documents on the go
+
+</details>
+<summary><b>12 Battery Notification System</b></summary>  
+
+* Monitors battery percentage
+* Sends desktop notifications when low
+* Uses `psutil` and `pynotifier`
+* Works on Windows
+
+**Use Case:**
+Avoid sudden shutdowns, manage laptop power efficiently
+
+</details>
+<summary><b>13 Automated Screenshot Taker</b></summary>  
+
+* Captures screenshots at set intervals (hours, minutes, or seconds)
+* Saves images to a specified folder
+* Fully customizable frequency and storage path
+
+**Use Case:**
+Screen monitoring, creating timelapse captures, or automated documentation
+
+</details>
+<summary><b>14 Video Frame Extractor</b></summary>  
+
+* Extracts frames from video files
+* Saves each frame as an image in a dedicated folder
+* Uses OpenCV for frame processing
+
+**Use Case:**
+Video analysis, creating thumbnails, or generating datasets from videos
+
+</details>
+<summary><b>15 Chessboard Visualization with Matplotlib</b></summary>  
+
+* Generates a chessboard pattern using NumPy
+* Overlays mathematical function plots on the chessboard
+* Visualizes complex patterns with color and transparency using Matplotlib
+
+**Use Case:**
+Data visualization, educational plots, or creative Python graphics
+
+</details>
+<summary><b>16 CLI Todo Application</b></summary>  
+
+* Command-line Todo app built with Click
+* Add, view, and delete tasks using unique IDs
+* Persists tasks in a text file for later use
+
+**Use Case:**
+Personal task management, productivity tool, CLI practice
+
+</details>
+<summary><b>17 Intersection over Union (IoU) Calculator</b></summary>  
+
+* Computes IoU between ground truth and predicted bounding boxes
+* Useful for object detection evaluation
+* Lightweight Python implementation using NumPy
+
+**Use Case:**
+Computer vision model evaluation, object detection metrics
+
+</details>
+<summary><b>18 Simple Phonebook Manager</b></summary>  
+
+* Stores names and phone numbers
+* Allows searching for a contact by name
+* Interactive console-based application
+
+**Use Case:**
+Quick personal contact management, learning data storage and search in Python
+
+</details>
+
 ---
 
 ## 💡 Use Cases
