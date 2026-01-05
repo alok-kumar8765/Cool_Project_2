@@ -93,6 +93,42 @@ Each file runs **independently**.
 </details>
 
 ---
+## Project Structure Diagram (Visual)
+
+```markdown
+
+Cool_Project_2
+│
+├─ README.md
+├─ requirements.txt
+├─ assets
+│   ├─ sample_image.png
+│   └─ sound.wav
+├─ bills
+└─ projects
+    ├─ ding_dong_wechat_bot
+    │   └─ ding_dong_bot.py
+    ├─ captcha_verification
+    │   └─ captcha_app.py
+    ├─ year_calendar
+    │   └─ year_calendar.py
+    ├─ age_calculator
+    │   └─ age_calculator.py
+    ├─ ball_bounce_simulation
+    │   └─ ball_bounce.py
+    ├─ blockchain_mining
+    │   └─ blockchain.py
+    ├─ billing_software
+    │   └─ billing_app.py
+    ├─ alarm_clock
+    │   └─ alarm_clock.py
+    ├─ website_link_scraper
+    │   └─ link_scraper.py
+    └─ image_to_ascii
+        └─ ascii_converter.py
+```
+
+---
 
 ## 🧩 Project Details
 
