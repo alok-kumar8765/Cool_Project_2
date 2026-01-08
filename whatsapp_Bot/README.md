@@ -119,14 +119,15 @@ minute = int(input('Enter minute : '))
 pywhatkit.sendwhatmsg(mobile, message, hour, minute)
 ```
 
-🔍 Explanation
+## 🔍 Explanation
 
 Line	Description
 
-import pywhatkit	Imports WhatsApp automation library
-datetime.now()	Fetches current system time
-input()	Takes user inputs
-sendwhatmsg()	Schedules WhatsApp message
+- import pywhatkit	
+- Imports WhatsApp automation library
+- datetime.now()	Fetches current system time
+- input()	Takes user inputs
+- sendwhatmsg()	Schedules WhatsApp message
 
 
 </details>
@@ -137,24 +138,31 @@ sendwhatmsg()	Schedules WhatsApp message
 
 <details>
 <summary><b>Click to expand</b></summary>
+   
+```
    graph TD
     User -->|Input Details| PythonScript
     PythonScript -->|Schedule| WhatsAppWeb
     WhatsAppWeb -->|Send Message| Receiver
-
+```
 </details>
+
 ---
 
 ## 🔄 DFD (Data Flow Diagram)
 
 <details>
 <summary><b>Click to expand</b></summary>
+   
+```
    graph LR
     U[User] --> D[Python Program]
     D --> W[WhatsApp Web]
     W --> R[Receiver]
+```
 
 </details>
+
 ---
 
 ## 🔁 Flow Diagram
@@ -170,6 +178,7 @@ sendwhatmsg()	Schedules WhatsApp message
     SendMessage --> End
 
 </details>
+
 ---
 
 ## 🎯 Use Cases
@@ -187,6 +196,7 @@ Personal productivity automation
 
 
 </details>
+
 ---
 
 ## 🌍 Real World Applications
@@ -204,6 +214,7 @@ Personal productivity automation
 
 
 </details>
+
 ---
 
 ## ⚖ Pros & Cons
@@ -230,6 +241,7 @@ Personal productivity automation
 
 
 </details>
+
 ---
 
 ## ▶ Example Execution
@@ -243,6 +255,7 @@ Enter minute : 30
 ➡ Message sent automatically at 14:30
 
 </details>
+
 ---
 
 ## 🚀 Installation & Setup
@@ -264,6 +277,7 @@ Keep browser open until message is sent
 
 
 </details>
+
 ---
 
 ## 🔮 Future Improvements
@@ -283,6 +297,7 @@ Keep browser open until message is sent
 
 
 </details>
+
 ---
 
 ## 📜 License
@@ -292,6 +307,7 @@ Keep browser open until message is sent
 Feel free to use, modify, and distribute responsibly.
 
 </details>
+
 ---
 
 ## ⭐ If you found this project useful, please give it a star!
