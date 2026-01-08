@@ -135,7 +135,8 @@ sendwhatmsg()	Schedules WhatsApp message
 ## 🏗 Architecture Diagram
 
 <details>
-<summary><b>Click to expand</b></summary>graph TD
+<summary><b>Click to expand</b></summary>
+   graph TD
     User -->|Input Details| PythonScript
     PythonScript -->|Schedule| WhatsAppWeb
     WhatsAppWeb -->|Send Message| Receiver
@@ -146,7 +147,8 @@ sendwhatmsg()	Schedules WhatsApp message
 ## 🔄 DFD (Data Flow Diagram)
 
 <details>
-<summary><b>Click to expand</b></summary>graph LR
+<summary><b>Click to expand</b></summary>
+   graph LR
     U[User] --> D[Python Program]
     D --> W[WhatsApp Web]
     W --> R[Receiver]
@@ -157,7 +159,9 @@ sendwhatmsg()	Schedules WhatsApp message
 ## 🔁 Flow Diagram
 
 <details>
-<summary><b>Click to expand</b></summary>flowchart TD
+<summary><b>Click to expand</b></summary>
+
+   flowchart TD
     Start --> Input
     Input --> ValidateTime
     ValidateTime --> OpenWhatsApp
@@ -206,22 +210,22 @@ Personal productivity automation
 <details>
 <summary><b>Click to expand</b></summary>✅ Pros
 
--Easy to use
+- Easy to use
 
--No paid API required
+- No paid API required
 
--Beginner friendly
+- Beginner friendly
 
--Works on WhatsApp Web
+- Works on WhatsApp Web
 
 
 ## ❌ Cons
 
--Requires internet
+- Requires internet
 
--Browser must remain open
+- Browser must remain open
 
--Not suitable for bulk spam (policy violation)
+- Not suitable for bulk spam (policy violation)
 
 
 </details>
@@ -266,15 +270,15 @@ Keep browser open until message is sent
 <details>
 <summary><b>Click to expand</b></summary>Bulk message scheduling
 
-GUI using Tkinter
+- GUI using Tkinter
 
-Message templates
+- Message templates
 
-Database logging
+- Database logging
 
-Retry & error handling
+- Retry & error handling
 
-WhatsApp Business integration
+- WhatsApp Business integration
 
 
 </details>
@@ -289,9 +293,3 @@ Feel free to use, modify, and distribute responsibly.
 </details>
 ---
 
-
-If you want next:
-- 🔥 **Advanced README with screenshots**
-- 📦 **Convert into a full project structure**
-- 🖥 **GUI version**
-- 🌐 **API-based WhatsApp  W
