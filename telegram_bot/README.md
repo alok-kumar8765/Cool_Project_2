@@ -66,7 +66,6 @@ The bot simulates a **coin toss** and responds instantly in chat using Telegram 
 <summary><h2>🏗️ Architecture Diagram</h2></summary>
 
 ```Mermaid
-
 +-------------+ | Telegram UI | +------+------+ | v +------+----------------+ | Telegram Bot API      | +------+----------------+ | v +------+----------------+ | Python Bot Service    | | - Command Handlers    | | - Coin Logic          | | - Error Handler       | +------+----------------+ | v +------+----------------+ | User Response         | +----------------------+
 
 ```
@@ -78,8 +77,7 @@ The bot simulates a **coin toss** and responds instantly in chat using Telegram 
 <details>
 <summary><h2>📊 Data Flow Diagram (DFD)</h2></summary>
 
-```Mermaid
-
+```
 User | | /coin or /start v Telegram Server | v Bot Dispatcher | v Command Handler | v Random Generator | v Message Response | v User
 
 ```
@@ -91,8 +89,7 @@ User | | /coin or /start v Telegram Server | v Bot Dispatcher | v Command Handle
 <details>
 <summary><h2>🔄 Application Flow Diagram</h2></summary>
 
-```Mermaid
-
+```
 Start Bot | v Initialize Token | v Register Commands | v Listen for Updates | +--> /start → Welcome Message → Auto Coin Toss | +--> /coin  → Generate Random Result | v Send Reply to Chat
 
 ```
