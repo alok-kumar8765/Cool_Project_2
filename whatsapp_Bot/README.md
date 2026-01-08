@@ -119,7 +119,7 @@ minute = int(input('Enter minute : '))
 pywhatkit.sendwhatmsg(mobile, message, hour, minute)
 ```
 
-## 🔍 Explanation
+🔍 Explanation
 
 Line	Description
 
@@ -130,6 +130,7 @@ sendwhatmsg()	Schedules WhatsApp message
 
 
 </details>
+
 ---
 
 ## 🏗 Architecture Diagram
@@ -293,3 +294,6 @@ Feel free to use, modify, and distribute responsibly.
 </details>
 ---
 
+## ⭐ If you found this project useful, please give it a star!
+
+---
