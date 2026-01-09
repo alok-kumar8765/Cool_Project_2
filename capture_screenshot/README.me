@@ -1,4 +1,5 @@
-#  📸 Automated Screenshot Capture Tool  
+# 📸 Automated Screenshot Capture Tool  
+
 > **Cool_Project_2**  
 > A lightweight Python utility to capture screenshots automatically at fixed intervals.
 
@@ -18,10 +19,11 @@
 This project is a **Python-based command-line automation tool** that captures **screenshots at user-defined time intervals** (hourly, minute-wise, or second-wise) and stores them in a specified directory.
 
 It is designed to be:
-- ✅ Simple
-- ✅ Cross-platform
-- ✅ Configurable via CLI arguments
-- ✅ Useful for monitoring, logging, and automation tasks
+
+- ✅ Simple  
+- ✅ Cross-platform  
+- ✅ Configurable via CLI arguments  
+- ✅ Useful for monitoring, logging, and automation tasks  
 
 </details>
 
@@ -66,7 +68,6 @@ It is designed to be:
 
 ```bash
 pip install pyautogui
-
 ```
 
 - System Requirements
@@ -83,11 +84,8 @@ pip install pyautogui
 <details>
 <summary><h2>🚀 Usage</h2></summary>
 
-
-```python
-
+```
 python screenshot.py -p ./images -t m -f 2
-
 ```
 
 This captures 2 screenshots per minute and stores them in ./images.
@@ -101,12 +99,11 @@ This captures 2 screenshots per minute and stores them in ./images.
 
 Argument	Description	Default
 
-```text
+```
 -p, --path	Directory to save screenshots	./images
 -t, --type	Time unit (h, m, s)	h
 -f, --frequency	Screenshots per unit	1
 ```
-
 
 </details>
 
@@ -115,15 +112,15 @@ Argument	Description	Default
 <details>
 <summary><h2>🧠 Internal Working</h2></summary>
 
-- Parsesarses CLI arguments using argpa
+- Parses CLI arguments using argpa
 
-- Convertsverts time units into second
+- Convert time units into second
 
-- Ensuressures minimum delay of 1 sec
+- Ensures minimum delay of 1 sec
 
-- Create seates directory if missing
+- Create seats directory if missing
 
-- Enters  infinite loop:
+- Enters infinite loop:
 
 - Captures screenshot
 
@@ -143,14 +140,12 @@ Argument	Description	Default
 <summary><h2>📊 Data Flow Diagram (DFD)</h2></summary>
 
 ```mermaid
-
 graph TD
     User -->|CLI Input| ArgumentParser
     ArgumentParser --> TimeCalculator
     TimeCalculator --> ScreenshotEngine
     ScreenshotEngine --> FileSystem
     FileSystem --> SavedImage
-
 ```
 
 </details>
@@ -161,15 +156,14 @@ graph TD
 <summary><h2>🏗 Architecture Diagram</h2></summary>
 
 ```mermaid
-
 graph LR
     CLI --> ArgParser
     ArgParser --> Scheduler
     Scheduler --> PyAutoGUI
     PyAutoGUI --> OS_Screen
     OS_Screen --> ImageFile
-
 ```
+
 </details>
 
 ---
@@ -263,9 +257,7 @@ Scenario 3: Online Exam Monitoring
 ---
 
 <details>
-<summary><h2>👨‍💻 Author</h2></summary>
-
-Alok Kumar
+<summary><h2>👨‍💻 Author</h2></summary>Alok Kumar
 🔗 GitHub: alok-kumar8765
 
 </details>
@@ -273,9 +265,7 @@ Alok Kumar
 ---
 
 <details>
-<summary><h2>📜 License</h2></summary>
-
-This project is licensed under the MIT License.
+<summary><h2>📜 License</h2></summary>This project is licensed under the MIT License.
 Feel free to use, modify, and distribute.
 
 </details>
