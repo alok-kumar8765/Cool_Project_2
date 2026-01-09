@@ -1,0 +1,288 @@
+
+# 📸 Automated Screenshot Capture Tool  
+> **Cool_Project_2**  
+> A lightweight Python utility to capture screenshots automatically at fixed intervals.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python" />
+  <img src="https://img.shields.io/badge/CLI-Tool-green" />
+  <img src="https://img.shields.io/badge/Status-Stable-success" />
+  <img src="https://img.shields.io/github/license/alok-kumar8765/Cool_Project_2" />
+  <img src="https://img.shields.io/github/stars/alok-kumar8765/Cool_Project_2?style=social" />
+</p>
+
+---
+
+<details>
+<summary><h2>📖 Description</h2></summary>
+
+This project is a **Python-based command-line automation tool** that captures **screenshots at user-defined time intervals** (hourly, minute-wise, or second-wise) and stores them in a specified directory.
+
+It is designed to be:
+- ✅ Simple
+- ✅ Cross-platform
+- ✅ Configurable via CLI arguments
+- ✅ Useful for monitoring, logging, and automation tasks
+
+</details>
+
+---
+
+<details>
+<summary><h2>📑 Table of Contents</h2></summary>
+
+1. Overview  
+2. Features  
+3. Installation  
+4. Usage  
+5. CLI Arguments  
+6. Internal Working  
+7. Data Flow Diagram (DFD)  
+8. Architecture Diagram  
+9. Flow Diagram  
+10. Pros & Cons  
+11. Real-World Use Cases  
+12. Example Scenarios  
+
+</details>
+
+---
+
+<details>
+<summary><h2>✨ Features</h2></summary>
+
+- 📷 Automated screenshot capturing  
+- ⏱ Flexible time intervals (hours, minutes, seconds)  
+- 📁 Auto directory creation  
+- 🖥 OS-level screen capture  
+- ⛔ Graceful exit using keyboard interrupt  
+- 🔧 Simple CLI interface  
+
+</details>
+
+---
+
+<details>
+<summary><h2>⚙️ Installation</h2></summary>
+
+```bash
+pip install pyautogui
+
+```
+
+- System Requirements
+
+- Python 3.x
+
+- OS with GUI (Windows / Linux / macOS)
+
+
+</details>
+
+---
+
+<details>
+<summary><h2>🚀 Usage</h2></summary>
+
+
+```python
+
+python screenshot.py -p ./images -t m -f 2
+
+```
+
+This captures 2 screenshots per minute and stores them in ./images.
+
+</details>
+
+---
+
+<details>
+<summary><h2>🧩 CLI Arguments</h2></summary>
+
+Argument	Description	Default
+
+```text
+-p, --path	Directory to save screenshots	./images
+-t, --type	Time unit (h, m, s)	h
+-f, --frequency	Screenshots per unit	1
+```
+
+
+</details>
+
+---
+
+<details>
+<summary><h2>🧠 Internal Working</h2></summary>
+
+- Parsesarses CLI arguments using argpa
+
+- Convertsverts time units into second
+
+- Ensuressures minimum delay of 1 sec
+
+- Create seates directory if missing
+
+- Enters  infinite loop:
+
+- Captures screenshot
+
+- Names file using current timestamp
+
+- Saves image
+
+- Sleeps until next capture
+
+
+
+</details>
+
+---
+
+<details>
+<summary><h2>📊 Data Flow Diagram (DFD)</h2></summary>
+
+```mermaid
+
+graph TD
+    User -->|CLI Input| ArgumentParser
+    ArgumentParser --> TimeCalculator
+    TimeCalculator --> ScreenshotEngine
+    ScreenshotEngine --> FileSystem
+    FileSystem --> SavedImage
+
+```
+
+</details>
+
+---
+
+<details>
+<summary><h2>🏗 Architecture Diagram</h2></summary>
+
+```mermaid
+
+graph LR
+    CLI --> ArgParser
+    ArgParser --> Scheduler
+    Scheduler --> PyAutoGUI
+    PyAutoGUI --> OS_Screen
+    OS_Screen --> ImageFile
+
+```
+</details>
+
+---
+
+<details>
+<summary><h2>🔄 Execution Flow Diagram</h2></summary>
+
+```mermaid
+flowchart TD
+    Start --> ParseArgs
+    ParseArgs --> ValidateTime
+    ValidateTime --> CreateDirectory
+    CreateDirectory --> CaptureLoop
+    CaptureLoop --> TakeScreenshot
+    TakeScreenshot --> SaveImage
+    SaveImage --> Sleep
+    Sleep --> CaptureLoop
+```
+
+</details>
+
+---
+
+<details>
+<summary><h2>✅ Pros & ❌ Cons</h2></summary>
+
+## ✅ Pros
+
+- Lightweight & fast
+
+- No complex dependencies
+
+- Fully configurable
+
+- Easy to extend
+
+
+## ❌ Cons
+
+- Requires active GUI session
+
+- No background service support
+
+- No cloud sync
+
+- No encryption
+
+
+</details>
+
+---
+
+<details>
+<summary><h2>🌍 Real-World Use Cases</h2></summary>
+
+- 🧑‍💻 Employee activity monitoring
+
+- 🖥 Screen logging for audits
+
+- 🐞 UI testing & debugging
+
+- 📈 Time-lapse screen recording
+
+- 🔐 Security surveillance
+
+
+</details>
+
+---
+
+<details>
+<summary><h2>📌 Example Scenarios</h2></summary>
+
+Scenario 1: Office Monitoring
+
+- Capture 1 screenshot every 10 minutes during work hours.
+
+
+Scenario 2: Bug Reproduction
+
+- Automatically record UI changes during testing.
+
+
+Scenario 3: Online Exam Monitoring
+
+- Capture screen periodically to prevent malpractice.
+
+
+</details>
+
+---
+
+<details>
+<summary><h2>👨‍💻 Author</h2></summary>
+
+Alok Kumar
+🔗 GitHub: alok-kumar8765
+
+</details>
+
+---
+
+<details>
+<summary><h2>📜 License</h2></summary>
+
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute.
+
+</details>
+
+---
+
+⭐ If you find this project useful, give it a star on GitHub!
+
+---
