@@ -1,4 +1,4 @@
-Below is a single-page, copy-paste ready, professional README.md written exactly to your requirements.
+
 # 🎥 YouTube Comment Scraper using Selenium (Python)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
