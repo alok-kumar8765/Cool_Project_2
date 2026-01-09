@@ -6,7 +6,7 @@ elif platform.system() == "Linux":
         pathToHosts=r"/etc/hosts"
 
 redirect="127.0.0.1"
-websites=["https://www.sislovesme.com/","https://motherless.com/","https://xhamster.com/","https://www.xnxx.com/","https://www.xvideos.com/","https://www.pornhub.com/"]
+websites=["https://google.com/","https://abv.com/","https://www.xn.com/","https://www.videos.com/","https://www.hub.com/"]
 
 with open(pathToHosts,'r+') as file:
     content=file.read()
