@@ -140,7 +140,7 @@ flowchart TD
 <summary>Click to expand</summary>
   
 ```mermaid  
-  sequence Diagramram
+  sequenceDiagram
     User->>Python: Run Script
     Python->>Selenium: Initialize Driver
     Selenium->>Chrome: Launch Browser
