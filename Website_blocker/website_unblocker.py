@@ -5,7 +5,7 @@ if platform.system() == "Windows":
 elif platform.system() == "Linux":
         pathToHosts=r"/etc/hosts"
 
-websites=["https://www.sislovesme.com/","https://motherless.com/","https://xhamster.com/","https://www.xnxx.com/","https://www.xvideos.com/","https://www.pornhub.com/"]
+websites=["https://www.google.com/","www.abc.com"]
 
 with open(pathToHosts,'r+') as file:
     content=file.readlines()
