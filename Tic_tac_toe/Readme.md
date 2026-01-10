@@ -145,12 +145,15 @@ Empty square
 <summary><h2>🏗️ System Architecture</h2></summary>
 
 ```mermaid
-  graph LR
-    Player --> CLI
-    CLI --> GameLogic
-    GameLogic --> Board
-    GameLogic --> WinChecker
-    WinChecker --> CLI
+sequenceDiagram
+    participant P as Player
+    participant G as Game Engine
+
+    P->>G: Enter Move (0–8)
+    G->>G: Validate Input
+    G->>G: Update Board
+    G->>G: Check Winner
+    G-->>P: Display Board / Result
 ```
 
 </details>
