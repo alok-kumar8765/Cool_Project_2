@@ -206,7 +206,7 @@ Medical Tax: Rs.5
 Total Bill: Rs.89
 ```
 
-![Image](Bill.png)
+![Image](https://github.com/alok-kumar8765/Cool_Project_2/blob/main/Billing_system/Bill.PNG)
 
 </details>
 
