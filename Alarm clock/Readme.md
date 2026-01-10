@@ -1,3 +1,10 @@
+<!--
+SEO KEYWORDS:
+Python Alarm Clock, Tkinter Alarm Clock, Python GUI Project, Desktop Alarm App,
+Python Threading Project, Beginner Python Project, Tkinter GUI Example,
+Python Mini Project, Alarm Clock Source Code
+-->
+
 # ⏰ Alarm Clock Application (Python | Tkinter)
 
 <p align="center">
