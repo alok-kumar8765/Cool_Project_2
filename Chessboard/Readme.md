@@ -3,12 +3,35 @@
 ### *Cool_Project_2 — Chessboard Module*
 
 <p align="center">
+  <!-- GitHub Core -->
   <img src="https://img.shields.io/github/stars/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
   <img src="https://img.shields.io/github/forks/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
   <img src="https://img.shields.io/github/license/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/top/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge" />
+
+  <!-- Python & Package -->
+  <img src="https://img.shields.io/pypi/v/chessboard-visualizer?style=for-the-badge&label=PyPI&color=blue" />
+  <img src="https://img.shields.io/pypi/pyversions/chessboard-visualizer?style=for-the-badge" />
+
+  <!-- CI/CD -->
+  <img src="https://img.shields.io/github/actions/workflow/status/alok-kumar8765/Cool_Project_2/python-app.yml?style=for-the-badge&label=CI%2FCD" />
+
+  <!-- Code Quality -->
+  <img src="https://img.shields.io/codefactor/grade/github/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
+  <img src="https://img.shields.io/codacy/grade/PROJECT_ID?style=for-the-badge" />
+
+  <!-- Test Coverage -->
+  <img src="https://img.shields.io/codecov/c/github/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
+
+  <!-- Security -->
+  <img src="https://img.shields.io/snyk/vulnerabilities/github/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
+
+  <!-- Formatting -->
+  <img src="https://img.shields.io/badge/code%20style-black-000000?style=for-the-badge" />
+
+  <!-- Visualization -->
   <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/NumPy-Numerical_Computing-blue?style=for-the-badge" />
 </p>
 
 ---
