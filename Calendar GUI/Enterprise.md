@@ -191,7 +191,7 @@ Example:
 ```
 
 📝 *Screenshot:*
-<img src="ss.png" >
+<img src="https://github.com/alok-kumar8765/Cool_Project_2/blob/main/Calendar%20GUI/ss.png" >
 
 </details>
 
