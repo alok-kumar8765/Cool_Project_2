@@ -257,7 +257,7 @@ python calculator.py
 <details>
 <summary><h2> Screen Shot</h2></summary>
 
-![Image](/Output.png)
+![Image](https://github.com/alok-kumar8765/Cool_Project_2/blob/main/Calculator/Output.png)
 
 </details>
 
