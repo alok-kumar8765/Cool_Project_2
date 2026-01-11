@@ -1,0 +1,6 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/alok-kumar8765/Cool_Project_2?style=social)
+![GitHub forks](https://img.shields.io/github/forks/alok-kumar8765/Cool_Project_2?style=social)
+![GitHub issues](https://img.shields.io/github/issues/alok-kumar8765/Cool_Project_2)
+![GitHub license](https://img.shields.io/github/license/alok-kumar8765/Cool_Project_2)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python CLI Project](https://img.shields.io/badge/Project-Python%20CLI-orange)
