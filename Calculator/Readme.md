@@ -7,6 +7,22 @@
   <img src="https://img.shields.io/github/last-commit/alok-kumar8765/Cool_Project_2?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-Tkinter-blue?style=for-the-badge" />
 </p>
+<p align="center">
+  <!-- Build Status -->
+  <img src="https://img.shields.io/github/actions/workflow/status/alok-kumar8765/Cool_Project_2/python-app.yml?branch=main&style=for-the-badge" />
+
+  <!-- CI Status -->
+  <img src="https://img.shields.io/badge/CI-GitHub_Actions-success?style=for-the-badge&logo=github" />
+
+  <!-- Python Version -->
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+
+  <!-- Code Style -->
+  <img src="https://img.shields.io/badge/Code%20Style-PEP8-brightgreen?style=for-the-badge" />
+
+  <!-- Maintenance -->
+  <img src="https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge" />
+</p>
 
 ---
 
