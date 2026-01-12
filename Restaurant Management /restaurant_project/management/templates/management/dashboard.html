@@ -1,0 +1,32 @@
+{% extends "management/base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<h1 class="mb-4">📋 Dashboard</h1>
+
+<div class="row g-4">
+    {% for item in menu %}
+    <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+            {% if item.image %}
+            <img src="{{ item.image.url }}" class="card-img-top" style="height:200px; object-fit:cover;">
+            {% endif %}
+            <div class="card-body">
+                <h5>{{ item.name }}</h5>
+                <p class="text-muted">{{ item.description|default:"No description" }}</p>
+                <p class="text-muted">₹ {{ item.price }}</p>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <p>No menu items available.</p>
+    {% endfor %}
+</div>
+
+<div class="mt-4 d-flex gap-2">
+    <a href="{% url 'create_order' %}" class="btn btn-success">➕ Create Order</a>
+    <a href="{% url 'menu_crud' %}" class="btn btn-outline-primary">⚙️ Manage Menu</a>
+    <a href="{% url 'search_order' %}" class="btn btn-outline-secondary">🔍 Search Order</a>
+    <a href="{% url 'all_orders' %}" class="btn btn-outline-secondary">🔍 All Order</a>
+</div>
+{% endblock %}

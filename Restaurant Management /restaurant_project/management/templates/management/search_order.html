@@ -1,0 +1,18 @@
+{% extends "management/base.html" %}
+{% block title %}Search Order{% endblock %}
+
+{% block content %}
+<h2>🔍 Search Order</h2>
+
+<form method="get" class="mb-3">
+    <input type="text" name="q" class="form-control" placeholder="Enter Order ID">
+</form>
+
+{% if order %}
+<div class="alert alert-success">
+    Order Found: <strong>{{ order.order_number }}</strong>
+    <br>
+    <a href="{% url 'order_receipt' order.id %}" class="btn btn-sm btn-primary mt-2">View Receipt</a>
+</div>
+{% endif %}
+{% endblock %}
