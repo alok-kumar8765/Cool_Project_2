@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange)
-![Stars](https://img.shields.io/github/stars/alok-kumar8765/System-Cleaner?style=social)
+![Stars](https://img.shields.io/github/stars/alok-kumar8765/Cool_Project_2?style=social)
 
 A **lightweight, cross-platform Python utility** to:
 
