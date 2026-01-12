@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatic Software Updater
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/auto_updater/updater.py
+WorkingDirectory=/opt/auto_updater
+User=root
+
+[Install]
+WantedBy=multi-user.target
