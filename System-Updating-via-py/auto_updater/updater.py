@@ -1,8 +1,13 @@
 import os, platform, subprocess, json, datetime
 from notifier import notify
 
-REPORT_FILE = "report.json"
-ROLLBACK_FILE = "rollback.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+
+os.makedirs(DATA_DIR, exist_ok=True)
+
+REPORT_FILE = os.path.join(DATA_DIR, "report.json")
+ROLLBACK_FILE = os.path.join(DATA_DIR, "rollback.json")
 
 
 def run(cmd):
